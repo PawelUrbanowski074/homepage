@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PU</title>
+    <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/mainStyle.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <div class="mainContainer">
+        <header>
+            <h1 class="mainContainer__header">Witaj na mojej stronie domowej!</h1>
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__unorderedList">
+                <li class="navigation__listItem">
+                    <a href="#o-mnie" class="navigation__listItemText">O mnie</a>
+                </li>
+                <li class="navigation__listItem">
+                    <a href="#zainteresowania" class="navigation__listItemText js-interestsNav">Zainteresowania</a>
+                </li>
+                <li class="navigation__listItem">
+                    <a href="#sprzet-muzyczny" class="navigation__listItemText js-instrumentsNav">Instumenty</a>
+                </li>
+                <li class="navigation__listItem">
+                    <a href="#kontakt" class="navigation__listItemText">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section class="section">
+                <p class="section__paragraph--imageContainer">
+                    <img class="section__image js-image" src="https://i.postimg.cc/gjKNBTCs/img1.jpg"
+                        alt="Paweł Urbanowski">
+                    <button class="button js-imageButton">Zmniejsz</button>
+                </p>
+                <article class="article" id="o-mnie">
+                    <h2 class="article__header">Kilka słów o mnie:</h2>
+                    <p class="article__paragraph">Hej, z tej strony Paweł. Mam 23 lata i jestem absolwentem uniwersytetu
+                        Białostockiego, studiowałem na kierunku informatyka. W kursie <strong
+                            class="article__strong">Frontend Developera</strong> jestem po raz
+                        pierwszy. Na swoim koncie mam już kilka stron internetowych stworzonych podczas studiów, lecz
+                        uważam swoją więdzę za nieuporządkowaną, stąd moja obecność tutaj.</p>
+
+                </article>
+                <article class="article" id="zainteresowania">
+                    <h2 class="article__header">Zaintersowania:</h2>
+                    <button class="button js-interestsButton">Wyświetl</button>
+                    <div class="js-interests hidden">
+                        <p class="article__paragraph">Moją pasją, poza programowaniem, jest <em>muzyka</em>. W wieku 13
+                            lat zdecydowałem się na kupno pierwszej gitary basowej.<br> W chwili obecnej wraz z zespołem
+                            nagrywamy utwory na <i>pierwszą płytę</i>, która zapowiada się obiecująco.
+                        </p>
+                        <div class="table__container" id="sprzet-muzyczny">
+                            <table class="table">
+                                <caption class="table__caption">Mój sprzęt muzyczny:</caption>
+                                <tr class="table__row">
+                                    <th class="table__cell table__header" scope="col">Typ</th>
+                                    <th class="table__cell table__header" scope="col">Producent</th>
+                                    <th class="table__cell table__header" scope="col">Model</th>
+                                    <th class="table__cell table__header" scope="col">Link do źródła<br>(otwiera się w
+                                        nowej
+                                        karcie)</th>
+                                </tr>
+                                <tr class="table__row">
+                                    <th class="table__cell table__header" scope="row">Gitara Basowa</th>
+                                    <td class="table__cell">YAMAHA</td>
+                                    <td class="table__cell">RBX 5A2</td>
+                                    <td class="table__cell">
+                                        <a class="table__link"
+                                            href="https://www.muziker.pl/yamaha-rbx5a2-white-aircraft-grey"
+                                            target="_blank" title="Yamaha na www.muziker.pl">muziker.pl</a>
+                                    </td>
+                                </tr>
+                                <tr class="table__row">
+                                    <th class="table__cell table__header" scope="row">Head</th>
+                                    <td class="table__cell" rowspan="2">HARTKE</td>
+                                    <td class="table__cell">HA3500</td>
+                                    <td class="table__cell">
+                                        <a class="table__link"
+                                            href="https://www.musicstore.com/pl_PL/PLN/Hartke-HA-3500-Head-/art-BAS0002008-000"
+                                            target="_blank" title="Hartke na www.musicstore.pl">musicstore.com</a>
+                                    </td>
+                                </tr>
+                                <tr class="table__row">
+                                    <th class="table__cell table__header" scope="row">Cabinet</th>
+                                    <td class="table__cell">210XL</td>
+                                    <td class="table__cell">
+                                        <a class="table__link"
+                                            href="http://musicexpert.pl/wzmacniacze-i-efekty/10218-hartke-210xl-kolumna-basowa-200w.html"
+                                            target="_blank" title="Hartke na www.musicexpert.pl">musicexpert.pl</a>
+                                    </td>
+                                </tr>
+                                <tr class="table__row">
+                                    <th class="table__cell table__header" scope="row">Multiefekt</th>
+                                    <td class="table__cell">Line6</td>
+                                    <td class="table__cell">Bass POD XT Live</td>
+                                    <td class="table__cell">
+                                        <a class="table__link"
+                                            href="https://muzyczny.pl/117144_Line-6-POD-XT-LIVE-BASS-procesor-gitarowy.html"
+                                            target="_blank" title="Line6 na www.muzyczny.pl">muzyczny.pl</a>
+                                    </td>
+                                </tr>
+                                <tr class="table__row">
+                                    <th class="table__cell table__header" scope="row">Monitory</th>
+                                    <td class="table__cell">Alesis</td>
+                                    <td class="table__cell">Elevate 5</td>
+                                    <td class="table__cell">
+                                        <a class="table__link"
+                                            href="https://www.muziker.pl/alesis-elevate-5-mkii?gclid=CjwKCAjw07qDBhBxEiwA6pPbHnloDRID5lRNeOMlJ_9yvgt_WQpRQyIr8sSr1kPfjJQYGltXTuqdxxoCGzoQAvD_BwE"
+                                            target="_blank" title="Alesis na www.muziker.pl">muziker.pl</a>
+                                    </td>
+                                </tr>
+                                <tr class="table__row">
+                                    <th class="table__cell table__header" scope="row">Interfejs Audio</th>
+                                    <td class="table__cell">PreSonus</td>
+                                    <td class="table__cell">AudioBox iTwo</td>
+                                    <td class="table__cell">
+                                        <a class="table__link"
+                                            href="https://guitarcenter.pl/catalog/studio/karty-dzwiekowe/zewnetrzne/presonus-audiobox-itwo"
+                                            target="_blank" title="Presonus na guitarcenter.pl">guitarcenter.pl</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <p class="article__paragraph">Poza muzyką kocham sport, szczególnie piłkę nożną oraz
+                            <b>siatkówkę</b>.
+                            Przez 3 lata byłem bramkarzem w licelnej sekcji futsalu. W tej chwili stało się to tylko
+                            miłym wspomnieniem, gdyż mimo lat spędzonych na boisku moją ulubioną dyscypliną jest piłka
+                            siatkowa, do której wracam znacznie częściej.
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer class="footer" id="kontakt">
+            <p>Paweł Urbanowski</p>
+            <p><a class="footer__link" href="mailto:kontakt@pawelurbanowski.pl">kontakt@pawelurbanowski.pl</a></p>
+            <p><a class="footer__link" href="tel:+48100200300">+48 100 200 300</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>

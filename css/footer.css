@@ -1,0 +1,15 @@
+.footer {
+    text-align: center;
+    font-size: 13px;
+    margin: 5px;
+    border-top: ridge 3px;
+    font-weight: 700;
+    color: rgb(77, 77, 77);
+}
+
+.footer__link {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-size: 13px;
+    font-weight: 700;
+}

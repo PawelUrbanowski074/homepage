@@ -1,0 +1,27 @@
+.navigation {
+    background-color: rgb(145, 145, 145);
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.navigation__unorderedList {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.navigation__listItem {
+    padding: 5px 0px;
+    font-size: 17px;
+    ;
+}
+
+.navigation__listItemText {
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+
+.navigation__listItemText:hover {
+    color: #353434;
+    text-shadow: 4px 4px 6px hsl(0deg 6% 18%);
+}

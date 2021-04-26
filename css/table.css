@@ -1,0 +1,62 @@
+.table__container {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    color: rgb(49, 49, 31);
+}
+
+.table__caption {
+    color: white;
+    text-align: left;
+    margin: 15px 0px;
+}
+
+.table__row {
+    background-color: hsl(0, 0%, 80%);
+}
+
+.table__row:nth-child(even) {
+    background-color: hsl(0, 0%, 70%);
+}
+
+.table__row:hover {
+    background-color: rgb(155, 155, 155);
+    color: rgb(0, 0, 0);
+}
+
+.table__cell {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__header {
+    background-color: rgb(120, 120, 120);
+    color: rgb(235, 235, 235);
+    font-size: 18px;
+}
+
+.table__header:hover {
+    background-color: hsl(0, 0%, 35%);
+}
+
+.table__link {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(68, 68, 17);
+}
+
+.table__link:visited {
+    color: rgb(39, 39, 24);
+}
+
+.table__link:hover {
+    color: rgb(87, 49, 4);
+    font-size: 18px;
+    text-decoration: underline;
+}
