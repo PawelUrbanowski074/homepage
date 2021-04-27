@@ -1,4 +1,5 @@
 # homepage
+<<<<<<< HEAD
 
 ## Hi, my name is Paweł.
 
@@ -12,5 +13,12 @@ Powyższa strona jest moją wizytówką, w której przedstawiłem krótko parę 
 
 
 
+=======
+>>>>>>> 2a2d370eb3b44f1521b5d343b7b9aa2ddc5b2f8c
 
+## Hi, my name is Paweł.
 
+<<<<<<< HEAD
+=======
+### https://palel.github.io/homepage/
+>>>>>>> 2a2d370eb3b44f1521b5d343b7b9aa2ddc5b2f8c
