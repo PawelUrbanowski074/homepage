@@ -1,4 +1,4 @@
-### Pawel Urbanowski - homepage
+# Pawel Urbanowski - homepage
 
 https://palel.github.io/homepage/
 ## Hi, my name is Paweł.
