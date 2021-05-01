@@ -35,13 +35,17 @@
     vertical-align: middle;
 }
 
-.table__header {
+.table__cell--header {
     background-color: rgb(120, 120, 120);
     color: rgb(235, 235, 235);
     font-size: 18px;
 }
 
-.table__header:hover {
+.table__cell--rowHeader {
+    background-color: hsl(0, 0%, 55%);
+}
+
+.table__cell--header:hover {
     background-color: hsl(0, 0%, 35%);
 }
 
