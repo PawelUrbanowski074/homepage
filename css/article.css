@@ -24,3 +24,7 @@
 .hidden {
     display: none;
 }
+
+.article__italic {
+    font-style: italic;
+}
