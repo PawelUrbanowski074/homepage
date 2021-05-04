@@ -2,7 +2,7 @@
 ## Table of content
 1. [Preview site](#preview)
 2. [General](#general)
-3. [Technologies](#technologies)
+3. [Technologies](#used-technologies)
 
 ## Preview : [click Here](https://palel.github.io/homepage/)
 ## General
