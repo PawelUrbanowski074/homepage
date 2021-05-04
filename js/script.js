@@ -1,45 +1,47 @@
 {
     welcome = () => {
         console.log("Witaj nieznany przybyszu!");
-    }
+    };
 
     const imageButton = document.querySelector(".js-imageButton");
-    
     const imageButtonClick = () => {
         const image = document.querySelector(".js-image");
         image.classList.toggle("section__image--small");
         image.classList.toggle("section__image");
         imageButton.remove();
-    }
+    };
 
-    const interestsButton = document.querySelector(".js-interestsButton");
-    const interests = document.querySelector(".js-interests");
-
-    const toggleButton = () => {
+    const toggleButtonClass = () => {
         interests.classList.toggle("hidden");
-        interestsButton.innerText === "Wyświetl" ? interestsButton.innerText = "Schowaj" : interestsButton.innerText = "Wyświetl"
-    }
+        interestsButton.innerText === "Wyświetl" ? interestsButton.innerText = "Schowaj" : interestsButton.innerText = "Wyświetl";
+    };
 
+    const interests = document.querySelector(".js-interests");
+    const interestsButton = document.querySelector(".js-interestsButton");
+    interestsButton.addEventListener("click", toggleButtonClass);
+    
     const isInterestsHidden = () => {
         if (interests.classList.contains("hidden")) {
-            toggleButton();
+            toggleButtonClass();
         }
-    }
+    };
 
-    const interestsButtonClick = () => {
-        toggleButton();
-    }
-
-    const init = () => {
+    const baindEventListeners = () => {
         const interestsNav = document.querySelector(".js-interestsNav");
+        interestsNav.addEventListener("click", isInterestsHidden);
+
         const instrumentsNav = document.querySelector(".js-instrumentsNav");
+        instrumentsNav.addEventListener("click", isInterestsHidden);
 
         imageButton.addEventListener("click", imageButtonClick);
-        interestsButton.addEventListener("click", interestsButtonClick);
-        interestsNav.addEventListener("click", isInterestsHidden);
-        instrumentsNav.addEventListener("click", isInterestsHidden);
+    };
+
+    
+    const init = () => {
+        
+        baindEventListeners();
         welcome();
-    }
+    };
 
     init();
 }
