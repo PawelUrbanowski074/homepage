@@ -2,18 +2,20 @@
     background-color: rgb(145, 145, 145);
     font-weight: 700;
     border-radius: 3px;
-    padding: 5px;
 }
 
 .navigation__unorderedList {
     list-style: none;
-    padding: 0px 20px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 .navigation__listItem {
     padding: 5px 0px;
     font-size: 17px;
-    ;
 }
 
 .navigation__listItemText {
