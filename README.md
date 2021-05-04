@@ -18,6 +18,7 @@ The above page is my showcase, in which I briefly presented some information abo
 - navigation with links to individual sections of the website
 - photo with a shrinking button
 - section hidden by the button
+- a table with my musical equipment
 
 Underneath you can check out the screenshot of my home page 
 ![HOMEPAGE](https://raw.githubusercontent.com/palel/homepage/main/images/homepage%20-%20screenshot.png)
